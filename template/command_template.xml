@@ -1,0 +1,21 @@
+<SerialCommands>
+    <!-- <Struct name_command="Start" command_id="0x05" len="5" payload="01 02 03 04" crc="1"/> -->
+    <!-- <Struct name_command="Stop" command_id="0x06" len="3" payload="FF 00 10" crc="2"/> -->
+    <CommandList>
+        <Command>
+            <Name>ReadStatus</Name>
+            <Expected>5</Expected>
+            <Value>05 06 00 00 19 19 16 18 25 64 33 22 66 05 06 00 00 19 19 16 18 25 64 33 22 66 05 06 00 00 19 19 16 18 25 64 33 22 66 05 06 00 00 19 19 16 18 25 64 33 22 66 05 06 00 00 19 19 16 18 25 64 33 22 66 05 06 00 00 19 19 16 18 25 64 33 22 66</Value>
+        </Command>
+        <Command>
+            <Name>ResetDevice</Name>
+            <Expected>5</Expected>
+            <Value>AA BB CC DD EE</Value>
+        </Command>
+        <Command>
+            <Name>abc</Name>
+            <Expected>5</Expected>
+            <Value>10 00 01 0A 5B</Value>
+        </Command>
+    </CommandList>
+</SerialCommands>
