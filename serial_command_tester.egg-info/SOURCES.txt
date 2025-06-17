@@ -1,0 +1,6 @@
+setup.py
+serial_command_tester.egg-info/PKG-INFO
+serial_command_tester.egg-info/SOURCES.txt
+serial_command_tester.egg-info/dependency_links.txt
+serial_command_tester.egg-info/requires.txt
+serial_command_tester.egg-info/top_level.txt

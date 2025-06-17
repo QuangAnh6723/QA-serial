@@ -1,0 +1,29 @@
+Metadata-Version: 2.4
+Name: serial-command-tester
+Version: 1.0.0
+Summary: PyQt6 Serial Command Tester
+Author: Your Name
+Requires-Dist: altgraph==0.17.4
+Requires-Dist: certifi==2025.6.15
+Requires-Dist: charset-normalizer==3.4.2
+Requires-Dist: docopt==0.6.2
+Requires-Dist: idna==3.10
+Requires-Dist: packaging==25.0
+Requires-Dist: pipreqs==0.4.13
+Requires-Dist: pyinstaller==6.14.1
+Requires-Dist: pyinstaller-hooks-contrib==2025.5
+Requires-Dist: PyQt6==6.9.1
+Requires-Dist: PyQt6-Qt6==6.9.1
+Requires-Dist: PyQt6_sip==13.10.2
+Requires-Dist: pyserial==3.5
+Requires-Dist: PySide6==6.9.1
+Requires-Dist: PySide6_Addons==6.9.1
+Requires-Dist: PySide6_Essentials==6.9.1
+Requires-Dist: requests==2.32.4
+Requires-Dist: setuptools==80.9.0
+Requires-Dist: shiboken6==6.9.1
+Requires-Dist: urllib3==2.4.0
+Requires-Dist: yarg==0.1.10
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: summary
